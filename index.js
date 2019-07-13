@@ -1,8 +1,8 @@
-const dotenv = require("dotenv");
-import { ApolloServer, gql } from "apollo-server-express";
-import express from "express";
-import mongoose from "mongoose"
-import graphql from "./graphql";
+const dotenv = require('dotenv');
+import { ApolloServer, gql } from 'apollo-server-express';
+import express from 'express';
+import mongoose from 'mongoose';
+import graphql from './graphql';
 
 dotenv.config();
 
@@ -17,6 +17,6 @@ const init = async () => {
     console.log(`🚀 Server ready at http://localhost:4000${server.graphqlPath}`);
     console.log(`${!!process.env.MONGO_URL}`);
   });
-}
+};
 
 init();

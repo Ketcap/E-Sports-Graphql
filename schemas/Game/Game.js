@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const Schema = mongoose.Schema;
 
@@ -10,9 +10,9 @@ const GameSchema = new Schema({
   updatedAt: Date,
   company: mongoose.Schema.Types.ObjectId,
   platforms: [mongoose.Schema.Types.ObjectId],
-  hero_name: String
-}, { strict: false, collection: "game" });
+  hero_name: String,
+}, { strict: false, collection: 'game' });
 
-const Game = mongoose.model("game", GameSchema);
+const Game = mongoose.model('game', GameSchema);
 
 export default Game;

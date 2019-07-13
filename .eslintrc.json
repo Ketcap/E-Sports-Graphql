@@ -16,6 +16,17 @@
     },
     "rules": {
         "object-curly-spacing": "off",
-        "linebreak-style": "off"
+        "linebreak-style": "off",
+        "max-len": [
+            "warn",
+            120
+        ],
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 1,
+                "maxBOF": 1
+            }
+        ]
     }
 }

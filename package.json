@@ -16,7 +16,7 @@
     "express": "^4.16.4",
     "graphql": "^14.3.0",
     "merge-graphql-schemas": "^1.5.8",
-    "mongoose": "^5.5.7",
+    "mongoose": "^5.7.5",
     "nodemon": "^1.19.0"
   },
   "devDependencies": {
